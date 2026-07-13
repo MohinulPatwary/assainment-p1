@@ -4,6 +4,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
 /* nav section */
 .nav-parent {
     display: flex;
@@ -217,6 +221,52 @@
 
 /* section-3-end */
 
+/* FAQ Section */
+
+.faq {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.faq-container {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-card {
+    background-color: white;
+    padding: 20px;
+    border-left: 6px solid #0077ff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.faq-card h3 {
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.faq-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
 /* footer start */
 .footer-section {
     background-color: #0D1B2A;
@@ -236,6 +286,5 @@
     gap: 20px;
     list-style: none;
 }
-
 
 /* footer end  */
